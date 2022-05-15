@@ -13,7 +13,7 @@ public class Rectangle extends TwoDShape{
 
 	@Override
 	public double getArea() {
-		return length + width;
+		return length * width;
 	}
 
 	@Override
