@@ -1,17 +1,23 @@
 package com.myplotter.starter.ThreeD;
 
 public class Cube extends ThreeDShape {
+	private double side;
+	
+	
+
+	public Cube(double side) {
+		super();
+		this.side = side;
+	}
 
 	@Override
 	public double getSurfaceArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return side * side * 6;
 	}
 
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return side * side * side;
 	}
 
 }

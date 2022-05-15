@@ -1,17 +1,24 @@
 package com.myplotter.starter.ThreeD;
 
 public class Sphere extends ThreeDShape {
+	
+	private double radius;
+	
+	
+
+	public Sphere(double radius) {
+		super();
+		this.radius = radius;
+	}
 
 	@Override
 	public double getSurfaceArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 4 * Math.PI * radius * radius;
 	}
 
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 4 / 3 * Math.PI * radius * radius * radius;
 	}
 
 }

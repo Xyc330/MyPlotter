@@ -26,7 +26,6 @@ public class Triangle extends TwoDShape{
 				side2+side3>side1;
 	}
 	
-	
 
 	@Override
 	public double getArea() {// Heron's formula
@@ -37,8 +36,7 @@ public class Triangle extends TwoDShape{
 
 	@Override
 	public double getPerimeter() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.side1 + this.side2 + this.side3;
 	}
 
 }
