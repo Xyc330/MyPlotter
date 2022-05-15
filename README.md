@@ -1,1 +1,1 @@
-# My-Plotter
+Project for Java class final exam
