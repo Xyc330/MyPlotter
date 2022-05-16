@@ -53,6 +53,28 @@ public class ClientApp {
 		
 		
 		
+		String input = "";
+		boolean running = true;
+		
+		while(running){
+			input = getUserInput().toLowerCase();
+			
+			if(input.equals("quit")) {
+				running = false;
+				System.out.println("Cya!");
+				break;
+			}
+			
+			switch(input) {
+			case "circle":
+				
+			}
+			
+			
+			
+		}
+		
+		
 		scan.close();
 		
 	}
