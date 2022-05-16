@@ -1,5 +1,7 @@
 package com.myplotter.starter.TwoD;
 
+import com.myplotter.starter.Shape;
+
 public class Circle extends TwoDShape{
 	
 	private double radius;
@@ -19,5 +21,13 @@ public class Circle extends TwoDShape{
 	public double getPerimeter() {
 		return Math.PI * radius * 2;
 	}
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
 
 }

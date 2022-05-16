@@ -1,5 +1,7 @@
 package com.myplotter.starter.TwoD;
 
+import com.myplotter.starter.Shape;
+
 public class Triangle extends TwoDShape{
 	
 	private double side1;
@@ -38,5 +40,13 @@ public class Triangle extends TwoDShape{
 	public double getPerimeter() {
 		return this.side1 + this.side2 + this.side3;
 	}
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
 
 }

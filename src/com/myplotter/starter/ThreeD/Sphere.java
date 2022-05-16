@@ -1,5 +1,7 @@
 package com.myplotter.starter.ThreeD;
 
+import com.myplotter.starter.Shape;
+
 public class Sphere extends ThreeDShape {
 	
 	private double radius;
@@ -20,5 +22,14 @@ public class Sphere extends ThreeDShape {
 	public double getVolume() {
 		return 4 / 3 * Math.PI * radius * radius * radius;
 	}
+	
+
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }

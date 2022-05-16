@@ -1,8 +1,9 @@
 package com.myplotter.starter;
 
 public interface Shape {
+
 	
-	// Shapecreater 
+	public Shape shapeCreater();
 	
 
 }

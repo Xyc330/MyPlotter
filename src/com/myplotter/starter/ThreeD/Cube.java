@@ -1,5 +1,7 @@
 package com.myplotter.starter.ThreeD;
 
+import com.myplotter.starter.Shape;
+
 public class Cube extends ThreeDShape {
 	private double side;
 	
@@ -19,5 +21,14 @@ public class Cube extends ThreeDShape {
 	public double getVolume() {
 		return side * side * side;
 	}
+	
+
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 
 }

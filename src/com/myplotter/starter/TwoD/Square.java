@@ -1,5 +1,7 @@
 package com.myplotter.starter.TwoD;
 
+import com.myplotter.starter.Shape;
+
 public class Square extends TwoDShape{
 	private double side;
 	
@@ -20,5 +22,13 @@ public class Square extends TwoDShape{
 		// TODO Auto-generated method stub
 		return side * 4;
 	}
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
 	
 }

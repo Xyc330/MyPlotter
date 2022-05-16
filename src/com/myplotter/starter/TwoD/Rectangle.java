@@ -1,5 +1,7 @@
 package com.myplotter.starter.TwoD;
 
+import com.myplotter.starter.Shape;
+
 public class Rectangle extends TwoDShape{
 	
 	private double length;
@@ -21,5 +23,12 @@ public class Rectangle extends TwoDShape{
 		// TODO Auto-generated method stub
 		return (length + width) * 2;
 	}
+
+	@Override
+	public Shape shapeCreater() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 }
