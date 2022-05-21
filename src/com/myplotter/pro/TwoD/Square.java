@@ -1,4 +1,4 @@
-package com.myplotter.starter.TwoD;
+package com.myplotter.pro.TwoD;
 
 public class Square extends TwoDShape{
 	private double side;

@@ -2,7 +2,6 @@ package com.myplotter.starter;
 
 import com.myplotter.starter.TwoD.*;
 import com.myplotter.starter.ThreeD.*;
-import com.myplotter.starter.*;
 import java.util.Scanner;
 
 public class ClientApp {
